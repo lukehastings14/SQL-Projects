@@ -10,3 +10,8 @@ SELECT result, round(100*CAST(COUNT(*) AS numeric) / (select total from total_ga
 FROM matches
 GROUP BY result
 ORDER BY 2 DESC;
+
+"result"	"pct"
+"H"	45.89
+"A"	28.36
+"D"	25.75
